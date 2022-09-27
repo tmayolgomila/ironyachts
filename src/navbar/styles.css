@@ -1,0 +1,49 @@
+.containerNav{
+    padding: 0 20px;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    background: none;
+    text-decoration: none;
+}
+.titulo{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+nav{
+    background: none;
+}
+ul{
+    background: none;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    background: none;
+}
+ul li{
+    padding: 5px;
+    margin-left: 10px;
+}
+
