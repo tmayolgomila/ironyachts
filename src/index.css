@@ -12,11 +12,7 @@ code {
     monospace;
 }
 *{
-  background: #0F2027;
-  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
-  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
-  color: white;
   font-family: sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: -.06em;
   }
