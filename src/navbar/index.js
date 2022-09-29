@@ -12,11 +12,11 @@ export default function Navbar() {
     <>
       <nav className="navContainer">
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClick} href="#h">Home</a>
-          <a onClick={handleClick} href="#h">Archive</a>
-          <a onClick={handleClick} href="#h">News</a>
-          <a onClick={handleClick} href="#h">About</a>
-          <a onClick={handleClick} href="#h">Contact</a>
+          <a onClick={handleClick} href="/">Home</a>
+          <a onClick={handleClick} href="/">Archive</a>
+          <a onClick={handleClick} href="/">News</a>
+          <a onClick={handleClick} href="/">About</a>
+          <a onClick={handleClick} href="/">Contact</a>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />

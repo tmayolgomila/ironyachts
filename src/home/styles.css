@@ -1,3 +1,13 @@
 .titulo{
-    font-size: 4em;
+    width: 24em;
+}
+.textoInfo{
+    display: inline-block;
+    width: 20em;
+    text-align: left;
+    
+}
+.subTitulo{
+    font-weight: 800;
+    letter-spacing: -.06em;
 }
