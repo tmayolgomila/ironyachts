@@ -1,5 +1,5 @@
 .titulo{
-    width: 24em;
+    width: 22em;
 }
 .textoInfo{
     display: inline-block;
@@ -11,3 +11,8 @@
     font-weight: 800;
     letter-spacing: -.06em;
 }
+@media screen and (min-width: 1025px) {
+    .titulo {
+      width: 36em;
+    }
+  }
