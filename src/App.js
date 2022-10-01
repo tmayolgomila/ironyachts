@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './navbar';
-
+import Archive from './archive';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import React, {Suspense, lazy} from 'react';
 const Home = lazy(()=> import('./home'))
@@ -19,6 +19,7 @@ export default function App() {
             <Route element={<Home />} path="/" />
             
         </Routes>
+        <Archive/>
     </BrowserRouter>
     </Suspense>
     </div>

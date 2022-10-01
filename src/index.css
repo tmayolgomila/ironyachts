@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 code {
@@ -15,4 +16,6 @@ code {
   font-family: sans-serif;
   font-weight: 800;
   letter-spacing: -.06em;
+  color: white;
+  background: black;
   }

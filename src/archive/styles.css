@@ -1,0 +1,12 @@
+.cartasCategorias{
+    display: inline-block
+}
+.carta{
+    width: 350px;
+    height: 60px;
+    margin: 1em;
+}
+a{
+    font-size: 3em;
+    color: white;
+}

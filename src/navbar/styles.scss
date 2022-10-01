@@ -1,6 +1,6 @@
 
   a{
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     margin-right: 1rem;
   }
@@ -9,7 +9,8 @@
     top: -700px;
     left: -2000px;
     right: 0;
-    background-color: rgba(255, 255, 255, 0.3);
+    background: none;
+    background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     margin-left: auto;
@@ -17,7 +18,7 @@
     text-align: center;
     transition: all .5s ease;
     a{
-      color: black;
+      color: rgb(255, 255, 255);
       font-size: 2rem;
       display: block;
     }
@@ -27,7 +28,7 @@
       margin: 0;
       a{
         font-size: 1.7rem;
-        color: black;
+        color: rgb(255, 255, 255);
         display: inline;
         cursor: pointer;
       }
@@ -46,10 +47,12 @@
     left: 0;
     right: 0;
     text-align: center;
+    
     a{
       font-size: 2rem;
       margin-top: 1rem;
-      color: black;
+      color: rgb(255, 255, 255);
+      background: none;
     }
     
   }
@@ -67,7 +70,7 @@
     display: inline-block;
   }
   .nav-icon-5 span{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     border-radius: 2px;
     transition: .3s cubic-bezier(.8, .5, .2, 1.4);
