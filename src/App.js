@@ -17,9 +17,8 @@ export default function App() {
     <Navbar/>
     <Routes>
             <Route element={<Home />} path="/" />
-            
+            <Route element={<Archive />} path="/archive" />
         </Routes>
-        <Archive/>
     </BrowserRouter>
     </Suspense>
     </div>

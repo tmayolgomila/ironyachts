@@ -13,7 +13,7 @@ export default function Navbar() {
       <nav className="navContainer">
         <div className={`links ${clicked ? 'active' : ''}`}>
           <a onClick={handleClick} href="/">Home</a>
-          <a onClick={handleClick} href="/">Archive</a>
+          <a onClick={handleClick} href="/archive">Archive</a>
           <a onClick={handleClick} href="/">News</a>
           <a onClick={handleClick} href="/">About</a>
           <a onClick={handleClick} href="/">Contact</a>
